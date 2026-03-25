@@ -1,5 +1,5 @@
-package br.com.fiap.main;
-import br.com.fiap.bean.*;
+package br.com.fiap;
+
 import java.util.Scanner;
 
 // rm573880 - Gustavo Soares Silva
