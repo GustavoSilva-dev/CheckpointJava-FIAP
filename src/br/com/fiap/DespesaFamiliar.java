@@ -3,20 +3,20 @@ package br.com.fiap;
 // rm573880 - Gustavo Soares Silva
 // rm565337 - Luiz Fernando Machado de Moura
 public class DespesaFamiliar {
-    public double rendaFamiliar;
-    public double gastoComLuz;
-    public int numeroDeMoradores;
-    public double gastoComAgua;
-    public double gastoComInternet;
-    public double valorMensalidadeDaAcademia;
+    double rendaFamiliar;
+    double gastoComLuz;
+    int numeroDeMoradores;
+    double gastoComAgua;
+    double gastoComInternet;
+    double valorMensalidadeDaAcademia;
 
-    public double calcularTotalDeDespesas(){
+    double calcularTotalDeDespesas(){
         double mensalidadeTotal = valorMensalidadeDaAcademia * numeroDeMoradores;
         double totalDespesas = gastoComLuz + gastoComAgua + gastoComInternet + mensalidadeTotal;
         return totalDespesas;
     }
 
-    public double calcularRendaFamiliarLiquida() {
+    double calcularRendaFamiliarLiquida() {
         double rendaLiquida = rendaFamiliar - calcularTotalDeDespesas();
         return rendaLiquida;
     }
