@@ -1,6 +1,7 @@
 package br.com.fiap;
 
 import java.util.Scanner;
+import br.com.fiap.*;
 
 // rm573880 - Gustavo Soares Silva
 // rm565337 - Luiz Fernando Machado de Moura
